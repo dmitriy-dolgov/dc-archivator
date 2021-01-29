@@ -1,0 +1,21 @@
+{
+    "name": "dmitriy-dolgov/yii2-dc-archivator",
+    "description": "Архивация базы данных и изображений",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","dc-archivator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dolgov Dima",
+            "email": "TwilightTower@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ladlen\\dc\\archivator\\": ""
+        }
+    }
+}
